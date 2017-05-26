@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:orientation="vertical"
     tools:context="com.toros.testapp.MainActivity">
     <TextureView
@@ -13,11 +14,54 @@
         android:layout_alignParentTop="true"/>
     <Button
         android:id="@+id/btn_takepicture"
+=======
+    tools:context=".MainActivity"
+    android:baselineAligned="false">
+
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </FrameLayout>
+
+
+    <RelativeLayout
+>>>>>>> parent of 73b0fde... we have changed the camera API sample app to a basic app on transitions
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+<<<<<<< HEAD
         android:layout_marginBottom="16dp"
         android:layout_marginTop="16dp"
         android:text="@string/take_picture" />
+=======
+        android:layout_marginBottom="10dp"
+        >
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/captured_image"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/desc"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/captured_image"
+            android:text="@string/capture_button"
+            android:id="@+id/button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            />
+
+
+    </RelativeLayout>
+
+
+>>>>>>> parent of 73b0fde... we have changed the camera API sample app to a basic app on transitions
 </RelativeLayout>

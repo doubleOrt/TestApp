@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.toros.testapp">
     <uses-sdk
         android:minSdkVersion="21"
@@ -7,6 +8,12 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-feature android:name="android.hardware.camera2.full" />
+=======
+    package="com.toros.testapp" >
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+>>>>>>> parent of 73b0fde... we have changed the camera API sample app to a basic app on transitions
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"

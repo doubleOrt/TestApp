@@ -1,4 +1,12 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Android Camera API 2</string>
     <string name="take_picture">Take picture</string>
+=======
+    <string name="app_name">Android Camera API Tutorial</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="capture_button">Take Photo</string>
+    <string name="desc">capture image place holder</string>
+>>>>>>> parent of 73b0fde... we have changed the camera API sample app to a basic app on transitions
 </resources>
