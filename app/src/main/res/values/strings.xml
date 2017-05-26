@@ -1,7 +1,6 @@
 <resources>
-    <string name="app_name">Android Camera API Tutorial</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Test Activity</string>
     <string name="action_settings">Settings</string>
-    <string name="capture_button">Take Photo</string>
+    <string name="main_button">Apply</string>
     <string name="desc">capture image place holder</string>
 </resources>
