@@ -1,37 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/master_layout"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
-    >
-    <TextView
-        android:id="@+id/title"
-        android:text="Title"
-        android:layout_width="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.toros.testapp.MainActivity">
+    <TextureView
+        android:id="@+id/texture"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
-
-    <FrameLayout
-        android:id="@+id/scene_root"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/title"
-        android:layout_marginTop="20dp"
-        >
-
-        <include layout="@layout/a_scene" />
-
-    </FrameLayout>
-
+        android:layout_above="@+id/btn_takepicture"
+        android:layout_alignParentTop="true"/>
     <Button
+        android:id="@+id/btn_takepicture"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/main_button"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/main_button"
-        />
-
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/take_picture" />
 </RelativeLayout>
