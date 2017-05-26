@@ -1,4 +1,4 @@
-package com.toros.testapp;
+package com.toros.;
 
 import android.hardware.Camera;
 import android.content.Context;
